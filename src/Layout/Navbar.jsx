@@ -22,7 +22,7 @@ const Navbar = () => {
        <ul className='Navul'>
         <Link to="/NewUser" className='link'><li>NewUser</li></Link>
         <Link to="/AllUser" className='link'><li>AllUser</li></Link>
-        <li><img src={navimg} alt="" className='d-none d-lg-block img-fluid'/></li>
+        <li><img src={navimg} alt="" className=' rounded-pill d-none d-lg-block img-fluid'/></li>
         </ul>
         </div>
        </div>
