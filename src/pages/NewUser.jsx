@@ -33,7 +33,7 @@ const NewUser = () => {
       alert(error)
     }
   }
-
+  document.title = 'New-Users || Page'
   return (
     <main className="container pt-4">
       <div className="row d-flex justify-content-evenly">

@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom'
 
 
 const Home = () => {
+
+  document.title = 'Home || Page'
   return (
     <main className="container pt-5">
       <div className='row justify-content-between align-items-center pb-4'>
