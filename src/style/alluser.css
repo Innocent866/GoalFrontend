@@ -1,0 +1,10 @@
+table th, td {
+    margin-top: 1rem;
+    border: 1px solid blue;
+    padding: 1rem;
+    text-align: center;
+}
+td{
+    width: 100rem;
+    text-align: left;
+}

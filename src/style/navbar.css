@@ -1,0 +1,15 @@
+
+.Navul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.link:hover{
+    border-bottom: 1px solid red;
+}
+
+.link{
+    text-decoration: none;
+}
