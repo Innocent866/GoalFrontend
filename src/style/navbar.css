@@ -1,9 +1,6 @@
-
 .Navul{
     list-style: none;
-    display: flex;
     gap: 1rem;
-    align-items: center;
 }
 
 .link:hover{
@@ -12,4 +9,14 @@
 
 .link{
     text-decoration: none;
+}
+
+.image {
+    width: 4rem;
+}
+
+@media screen and (min-width:700px) {
+    .image {
+        width: 100%;
+    }
 }

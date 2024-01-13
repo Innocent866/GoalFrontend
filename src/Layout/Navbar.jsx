@@ -14,12 +14,12 @@ const Navbar = () => {
       <div className='container d-flex justify-content-between align-items-center'>
 
       <div>
-        <Link to="/"><img src={navlogo} alt="" className='img-fluid'/></Link>
+        <Link to="/"><img src={navlogo} alt="" className='image'/></Link>
       </div>
 
        
         <div>
-       <ul className='Navul'>
+       <ul className='d-flex align-items-center gap-5 list-unstyled'>
         <Link to="/NewUser" className='link'><li>NewUser</li></Link>
         <Link to="/AllUser" className='link'><li>AllUser</li></Link>
         <li><img src={navimg} alt="" className=' rounded-pill d-none d-lg-block img-fluid'/></li>
